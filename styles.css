@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+font-family: poppins;
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+background: #080808;
+color: #fff;
+}
+.container{
+    padding: 10px 10%;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: aquamarine;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -8px;
+    left: 0;
+    background: #f004ff;
+    transition: 0.5s;
+}
+nav ul li a::after :hover{
+    width: 100%;
+}
+.header-text p{
+    font-size: 35px;
+    margin-top: 20%;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span {
+color: blue;
+}
+/* The about section */
+.about{
+    background: #080808;
+    color: #fff;
+    padding: 10px 10%;
+}
+.about h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    padding-top: 50px;
+}
+.about h1 p{
+    font-size: 35px;
+}
+/* Services */
+.services{
+    background: #080808;
+        color: #fff;
+        padding: 10px 10%;
+}
+.services h1 {
+    font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aquamarine;
+}
+.portifolio{
+    background: #080808;
+        color: #fff;
+        padding: 10px 10%;
+}
+.portifolio h1 {
+    font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aquamarine;
+}
+.contacts{
+    background: #080808;
+        color: #fff;
+        padding: 10px 10%;
+}
+.contacts h1 {
+    font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aquamarine;
+}
+/* Footer */
+.footer{
+    align-items: center;
+    color: #f004ff;
+}
+
+
+
+
+
